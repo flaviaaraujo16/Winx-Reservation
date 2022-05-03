@@ -23,9 +23,6 @@ body{
     margin-left: auto;
     margin-right: auto }
 
-  button{  
-    background-color: #DF8852;
-  }
 
   h1{
     font-size: 0,2cm;
@@ -54,7 +51,7 @@ header {
 }
 
 .login h1 {
-  color: rgb(255, 255, 255);
+  color: white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -65,15 +62,13 @@ header {
   margin-top: 25px;
 }
 
-.botao{
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 60px;
-  width: min-content;
-  border-radius: 20px;
-  align-items: center;
-  height: 110px;
 
+.button {
+  align-items: center;
+  text-align: center;
+}
+
+button {
+  color: white;
+  background-color:#DF8852;
 }
